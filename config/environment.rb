@@ -13,4 +13,4 @@ ActionMailer::Base.stmp_settings = {
   :authentication => :plain,
 }
 
-ActionMailer::Base.delivery_mether = :stmp
+ActionMailer::Base.delivery_method = :stmp
