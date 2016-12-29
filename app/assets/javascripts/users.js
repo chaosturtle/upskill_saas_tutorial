@@ -26,7 +26,7 @@ $(document).on('turbolinks:load', function(){
       alert('The credit card number appears to be invalid.')
     }
     // and CVC code
-    if (!Stripe.card.validateCardNumber(cvcNum)) {
+    if (!Stripe.card.validateCVC(cvcNum)) {
       error = true;
       alert('The CVC number appears to be invalid.')
     }    
